@@ -59,7 +59,7 @@ int main(void)
 #ifdef isWindows
     string dbDir = "%APPDATA%/discord/Local Storage/leveldb/";
 #else
-    string dbDir = "/home/%USERNAME%/.config/Lightcord/Local Storage/leveldb/";
+    string dbDir = "/home/%USERNAME%/.config/discord/Local Storage/leveldb/";
 #endif
 
 #ifdef isWindows
